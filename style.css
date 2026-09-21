@@ -1,0 +1,433 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.nav {
+  position: absolute;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 7%;
+}
+
+.navchild {
+  position: absolute;
+  /* border: 2px solid rgb(43, 0, 255); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px 20px;
+  top: 8px;
+  left: 1150px;
+}
+
+select {
+  border: 2px dotted black;
+  padding: 10px;
+}
+
+.Countinebtns {
+  /* border: 3px solid green; */
+  background-color: black;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 40px;
+}
+
+.navchild img {
+  object-fit: contain;
+  width: 45px;
+  margin-bottom: 20px;
+}
+
+.firstimg {
+  position: relative;
+  width: 100%;
+}
+
+.Thirdnav {
+  /* border: 3px solid green; */
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+
+.Thirdnav span {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.Thirdnav span:first-child {
+  font-size: 1.6rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-right: 40px;
+}
+
+.Thirdnav img {
+  object-fit: contain;
+}
+
+.searchbar {
+  width: 25px;
+  margin-left: auto;
+}
+
+.portrait {
+  width: 25px;
+}
+
+.support {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 90px;
+  left: 1720px;
+  gap: 18px;
+}
+
+.support span {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.support img {
+  object-fit: contain;
+  width: 35px;
+}
+
+.learnbuy {
+  position: absolute;
+  top: 650px;
+  left: 1050px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.learnbuy p:first-child {
+  /* color: yellow; */
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.learnbuy p:first-child:hover {
+  text-decoration: underline;
+}
+
+.learnbuy p:last-child {
+  /* color: yellow; */
+  font-weight: 400;
+  font-size: 1.1rem;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px 45px;
+  border-radius: 40px;
+}
+
+.learnbuy p:last-child:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.secondimg {
+  position: relative;
+  top: 50px;
+}
+
+.secondimg img {
+  object-fit: contain;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.secondlearnbuy {
+  position: absolute;
+  top: 650px;
+  left: 170px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.secondlearnbuy p:first-child {
+  /* color: yellow; */
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.secondlearnbuy p:first-child:hover {
+  text-decoration: underline;
+}
+
+.secondlearnbuy p:last-child {
+  /* color: yellow; */
+  font-weight: 400;
+  font-size: 1.1rem;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px 45px;
+  border-radius: 40px;
+}
+
+.secondlearnbuy p:last-child:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.galaxyparent {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 80px auto 0 auto;
+  gap: 20px;
+}
+
+.galxycard {
+  position: relative;
+  width: 23%;
+}
+
+.galxycard img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.galxycard a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.galaxyparent p {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Montserrat", Arial, sans-serif;
+  top: 30px;
+  left: 100px;
+}
+
+.fourthimg {
+  position: relative;
+  top: 450px;
+}
+
+.fourthimg img {
+  object-fit: contain;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.fourthlearnbuy {
+  position: absolute;
+  top: 410px;
+  left: 170px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.fourthlearnbuy p:first-child {
+  /* color: yellow; */
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.fourthlearnbuy p:first-child:hover {
+  text-decoration: underline;
+}
+
+.fourthlearnbuy p:last-child {
+  /* color: yellow; */
+  font-weight: 400;
+  font-size: 1.1rem;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px 25px;
+  border-radius: 40px;
+}
+
+.fourthlearnbuy p:last-child:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.AI {
+  position: absolute;
+  top: 290px;
+  left: 170px;
+  align-items: center;
+  gap: 20px;
+}
+
+.AI p:first-child {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.AI p:last-child {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.galaxyparent2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 80px auto 0 auto;
+  gap: 20px;
+}
+
+.galxycard2 {
+  position: relative;
+  top: 400px;
+  width: 23%;
+}
+
+.galxycard2 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.galxycard2 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.galaxyparent2 p {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Montserrat", Arial, sans-serif;
+  top: 30px;
+  left: 100px;
+}
+
+.sixthimg {
+  position: relative;
+  top: 850px;
+}
+
+.sixthimg img {
+  object-fit: contain;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.sixthlearnbuy {
+  position: absolute;
+  top: 440px;
+  left: 190px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sixthlearnbuy p:first-child {
+  /* color: yellow; */
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.sixthlearnbuy p:first-child:hover {
+  text-decoration: underline;
+}
+
+.sixthlearnbuy p:last-child {
+  /* color: yellow; */
+  font-weight: 400;
+  font-size: 1.1rem;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px 25px;
+  border-radius: 40px;
+}
+
+.sixthlearnbuy p:last-child:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.spokeAI {
+  position: absolute;
+  top: 390px;
+  left: 190px;
+  align-items: center;
+  gap: 20px;
+}
+
+.spokeAI p {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+
+
+.galaxyparent3 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 80px auto 0 auto;
+  gap: 20px;
+}
+
+.galxycard3 {
+  position: relative;
+  top: 400px;
+  width: 23%;
+}
+
+.galxycard3 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.galxycard3 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.galaxyparent3 p {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Montserrat", Arial, sans-serif;
+  top: 30px;
+  left: 100px;
+}
+
+.lastP {
+  right: 30px;
+  margin-left: -60px;
+}
