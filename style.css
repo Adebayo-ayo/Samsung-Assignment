@@ -4,46 +4,47 @@
   padding: 0;
 }
 
+body {
+  background-color: black1; 
+}
+
 img {
   width: 100%;
 }
 
 .nav {
   position: absolute;
-  /* border: 2px solid red; */
   width: 100%;
   height: 7%;
 }
 
 .navchild {
   position: absolute;
-  /* border: 2px solid rgb(43, 0, 255); */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
-  padding: 10px 20px;
-  top: 8px;
-  left: 1150px;
+  gap: 13px;
+  padding: 9px 17px;
+  top: 7px;
+  left: 978px;
 }
 
 select {
   border: 2px dotted black;
-  padding: 10px;
+  padding: 9px;
 }
 
 .Countinebtns {
-  /* border: 3px solid green; */
   background-color: black;
   color: white;
-  padding: 15px 40px;
-  border-radius: 40px;
+  padding: 13px 34px;
+  border-radius: 34px;
 }
 
 .navchild img {
   object-fit: contain;
-  width: 45px;
-  margin-bottom: 20px;
+  width: 38px;
+  margin-bottom: 17px;
 }
 
 .firstimg {
@@ -52,28 +53,27 @@ select {
 }
 
 .Thirdnav {
-  /* border: 3px solid green; */
   position: absolute;
-  top: 100px;
+  top: 85px;
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 20px;
-  padding: 20px 50px;
+  gap: 17px;
+  padding: 17px 42px;
   box-sizing: border-box;
 }
 
 .Thirdnav span {
   font-family: Arial, sans-serif;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
 }
 
 .Thirdnav span:first-child {
-  font-size: 1.6rem;
+  font-size: 1.36rem;
   font-weight: 900;
-  letter-spacing: 3px;
-  margin-right: 40px;
+  letter-spacing: 2.5px;
+  margin-right: 34px;
 }
 
 .Thirdnav img {
@@ -81,46 +81,45 @@ select {
 }
 
 .searchbar {
-  width: 25px;
+  width: 21px;
   margin-left: auto;
 }
 
 .portrait {
-  width: 25px;
+  width: 21px;
 }
 
 .support {
   display: flex;
   position: absolute;
   align-items: center;
-  top: 90px;
-  left: 1720px;
-  gap: 18px;
+  top: 76px;
+  left: 1462px;
+  gap: 15px;
 }
 
 .support span {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
 }
 
 .support img {
   object-fit: contain;
-  width: 35px;
+  width: 30px;
 }
 
 .learnbuy {
   position: absolute;
-  top: 650px;
-  left: 1050px;
+  top: 552px;
+  left: 892px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 17px;
 }
 
 .learnbuy p:first-child {
-  /* color: yellow; */
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
 }
 
 .learnbuy p:first-child:hover {
@@ -128,12 +127,11 @@ select {
 }
 
 .learnbuy p:last-child {
-  /* color: yellow; */
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
   border: 2px solid rgb(0, 0, 0);
-  padding: 10px 45px;
-  border-radius: 40px;
+  padding: 9px 38px;
+  border-radius: 34px;
 }
 
 .learnbuy p:last-child:hover {
@@ -143,7 +141,7 @@ select {
 
 .secondimg {
   position: relative;
-  top: 50px;
+  top: 42px;
 }
 
 .secondimg img {
@@ -155,17 +153,16 @@ select {
 
 .secondlearnbuy {
   position: absolute;
-  top: 650px;
-  left: 170px;
+  top: 552px;
+  left: 144px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 17px;
 }
 
 .secondlearnbuy p:first-child {
-  /* color: yellow; */
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
 }
 
 .secondlearnbuy p:first-child:hover {
@@ -173,12 +170,11 @@ select {
 }
 
 .secondlearnbuy p:last-child {
-  /* color: yellow; */
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
   border: 2px solid rgb(0, 0, 0);
-  padding: 10px 45px;
-  border-radius: 40px;
+  padding: 9px 38px;
+  border-radius: 34px;
 }
 
 .secondlearnbuy p:last-child:hover {
@@ -191,8 +187,8 @@ select {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 80px auto 0 auto;
-  gap: 20px;
+  margin: 68px auto 0 auto;
+  gap: 17px;
 }
 
 .galxycard {
@@ -217,16 +213,16 @@ select {
   position: absolute;
   text-decoration: none;
   color: black;
-  font-size: 1.8rem;
+  font-size: 1.53rem;
   font-weight: 700;
   font-family: "Montserrat", Arial, sans-serif;
-  top: 30px;
-  left: 100px;
+  top: 25px;
+  left: 85px;
 }
 
 .fourthimg {
   position: relative;
-  top: 450px;
+  top: 382px;
 }
 
 .fourthimg img {
@@ -238,17 +234,16 @@ select {
 
 .fourthlearnbuy {
   position: absolute;
-  top: 410px;
-  left: 170px;
+  top: 348px;
+  left: 144px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 17px;
 }
 
 .fourthlearnbuy p:first-child {
-  /* color: yellow; */
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
 }
 
 .fourthlearnbuy p:first-child:hover {
@@ -256,12 +251,11 @@ select {
 }
 
 .fourthlearnbuy p:last-child {
-  /* color: yellow; */
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
   border: 2px solid rgb(0, 0, 0);
-  padding: 10px 25px;
-  border-radius: 40px;
+  padding: 9px 21px;
+  border-radius: 34px;
 }
 
 .fourthlearnbuy p:last-child:hover {
@@ -271,20 +265,20 @@ select {
 
 .AI {
   position: absolute;
-  top: 290px;
-  left: 170px;
+  top: 246px;
+  left: 144px;
   align-items: center;
-  gap: 20px;
+  gap: 17px;
 }
 
 .AI p:first-child {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3.4rem;
 }
 
 .AI p:last-child {
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.275rem;
 }
 
 .galaxyparent2 {
@@ -292,13 +286,13 @@ select {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 80px auto 0 auto;
-  gap: 20px;
+  margin: 68px auto 0 auto;
+  gap: 17px;
 }
 
 .galxycard2 {
   position: relative;
-  top: 400px;
+  top: 340px;
   width: 23%;
 }
 
@@ -319,16 +313,16 @@ select {
   position: absolute;
   text-decoration: none;
   color: black;
-  font-size: 1.8rem;
+  font-size: 1.53rem;
   font-weight: 700;
   font-family: "Montserrat", Arial, sans-serif;
-  top: 30px;
-  left: 100px;
+  top: 25px;
+  left: 85px;
 }
 
 .sixthimg {
   position: relative;
-  top: 850px;
+  top: 722px;
 }
 
 .sixthimg img {
@@ -340,17 +334,16 @@ select {
 
 .sixthlearnbuy {
   position: absolute;
-  top: 440px;
-  left: 190px;
+  top: 374px;
+  left: 161px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 17px;
 }
 
 .sixthlearnbuy p:first-child {
-  /* color: yellow; */
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
 }
 
 .sixthlearnbuy p:first-child:hover {
@@ -358,12 +351,11 @@ select {
 }
 
 .sixthlearnbuy p:last-child {
-  /* color: yellow; */
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.935rem;
   border: 2px solid rgb(0, 0, 0);
-  padding: 10px 25px;
-  border-radius: 40px;
+  padding: 9px 21px;
+  border-radius: 34px;
 }
 
 .sixthlearnbuy p:last-child:hover {
@@ -373,31 +365,29 @@ select {
 
 .spokeAI {
   position: absolute;
-  top: 390px;
-  left: 190px;
+  top: 331px;
+  left: 161px;
   align-items: center;
-  gap: 20px;
+  gap: 17px;
 }
 
 .spokeAI p {
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.275rem;
 }
-
-
 
 .galaxyparent3 {
   position: relative;
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 80px auto 0 auto;
-  gap: 20px;
+  margin: 68px auto 0 auto;
+  gap: 17px;
 }
 
 .galxycard3 {
   position: relative;
-  top: 820px;
+  top: 697px;
   width: 23%;
 }
 
@@ -418,96 +408,120 @@ select {
   position: absolute;
   text-decoration: none;
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.36rem;
   justify-content: center;
   text-align: center;
   font-weight: 700;
   font-family: "Montserrat", Arial, sans-serif;
-  top: 30px;
-  left: 100px;
+  top: 25px;
+  left: 85px;
 }
 
 .lastP {
-  right: 30px;
-  margin-left: -60px;
+  right: 25px;
+  margin-left: -51px;
 }
-
-
-
-
 
 .galaxyparentlast {
   position: relative;
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 80px auto 0 auto;
-  gap: 10px;
+  margin: 68px auto 0 auto;
+  gap: 8px;
 }
 
 .galxycardlast {
-  /* border: 4px solid blue; */
-
   position: relative;
-  top: 1330px;
+  top: 1130px;
   width: 22%;
 }
 
 .galxycardlast img {
   width: 100%;
   object-fit: contain;
-  border-radius: 20px;
+  border-radius: 17px;
 }
-
 
 .galaxyparentlast p {
   position: absolute;
   text-decoration: none;
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.36rem;
   justify-content: center;
   text-align: center;
   font-weight: 700;
   font-family: "Montserrat", Arial, sans-serif;
-  top: 400px;
-  left: 50px;
+  top: 340px;
+  left: 42px;
 }
 
-.upperstories p{
+.upperstories p {
   color: black;
   position: absolute;
-
   font-weight: 600;
-  font-size: 4rem;
-  top: 1200px;
+  font-size: 3.4rem;
+  top: 1020px;
 }
 
-.uiux{
-  /* display: flex; */
+.uiux {
   position: absolute;
-  /* border: 2px solid red; */
   background-color: rgb(247, 247, 247);
   width: 88%;
-  height: 170px;
- padding-top:20px ;
-  top: 5900px;
-  left: 130px;
-
+  height: 144px;
+  padding-top: 17px;
+  top: 5015px;
+  left: 110px;
 }
 
-.uiux li{
-  margin-bottom: 20px;
-  list-style-type:none;
+.uiux li {
+  margin-bottom: 17px;
+  list-style-type: none;
   text-align: left;
-
 }
+
 ul {
-  list-style: none; 
+  list-style: none;
   padding-left: 0;
 }
 
 ul li::before {
-  content: "*"; 
+  content: "*";
   font-weight: bold;
-  padding-left: 10px;
+  padding-left: 8px;
+}
+
+footer {
+  position: relative;
+  top: 1530px;
+  width: 100%;
+  border: 4px solid rgb(34, 0, 255);
+}
+
+.footercontainer {
+  display: flex;
+  width: 80%;
+  border: 4px solid red;
+  margin-left: 102px;
+  justify-content: center;
+  border-top: 1px solid rgba(167, 95, 95, 0.93);
+  border-bottom: 1px solid rgba(167, 95, 95, 0.93);
+  padding: 17px 0;
+}
+
+.footercontainer ul {
+  list-style: none;
+}
+
+.footercontainer ul li::before {
+  content: none; 
+}
+
+.container {
+  display: flex;
+  border-right: 1px solid rgba(167, 95, 95, 0.93);
+}
+
+.container:last-child {
+  border-right: none;
 }
