@@ -507,6 +507,8 @@ footer {
   border-top: 1px solid rgba(167, 95, 95, 0.93);
   border-bottom: 1px solid rgba(167, 95, 95, 0.93);
   padding: 17px 0;
+  gap: 60px;
+color: black;
 }
 
 .footercontainer ul {
@@ -519,9 +521,16 @@ footer {
 
 .container {
   display: flex;
-  border-right: 1px solid rgba(167, 95, 95, 0.93);
+  border-right: 1px solid rgba(95, 167, 103, 0.93);
+
+}
+
+.container ul li a{
+  text-decoration: none;
+  color: black;
 }
 
 .container:last-child {
   border-right: none;
+  margin-right: 40px;
 }
