@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
 * {
   box-sizing: content-box;
   margin: 0;
@@ -5,7 +11,7 @@
 }
 
 body {
-  background-color: black1; 
+  background-color: black1;
 }
 
 img {
@@ -422,8 +428,11 @@ select {
   margin-left: -51px;
 }
 
-.galaxyparentlast {
+.galaxylastparent {
+  border: 2px solid rgb(0, 255, 4);
+
   position: relative;
+  /* top: 900px; */
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -431,19 +440,28 @@ select {
   gap: 8px;
 }
 
-.galxycardlast {
+.galxylastcard {
+
+  border: 2px solid red;
   position: relative;
   top: 1130px;
   width: 22%;
 }
 
-.galxycardlast img {
-  width: 100%;
+.galxylastcard img {
+  flex: 1;
+  width: 280px;
+  height: 400px;
+
   object-fit: contain;
   border-radius: 17px;
 }
 
-.galaxyparentlast p {
+.galxylastcard img:hover{
+  transform: scale(1.1);
+}
+
+.galaxylastparent p {
   position: absolute;
   text-decoration: none;
   color: black;
@@ -467,15 +485,18 @@ select {
 .uiux {
   position: absolute;
   background-color: rgb(247, 247, 247);
-  width: 88%;
-  height: 144px;
+
+  width: 86%;
+  height: 148px;
   padding-top: 17px;
   top: 5015px;
-  left: 110px;
+  left: 116px;
 }
 
 .uiux li {
   margin-bottom: 17px;
+  font-size: 0.73rem;
+  font-weight: 200;
   list-style-type: none;
   text-align: left;
 }
@@ -492,23 +513,27 @@ ul li::before {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  top: 1530px;
+  top: 1497px;
+
   width: 100%;
-  border: 4px solid rgb(34, 0, 255);
+
+  /* border: 4px solid rgb(34, 0, 255); */
 }
 
 .footercontainer {
   display: flex;
-  width: 80%;
-  border: 4px solid red;
-  margin-left: 102px;
-  justify-content: center;
-  border-top: 1px solid rgba(167, 95, 95, 0.93);
-  border-bottom: 1px solid rgba(167, 95, 95, 0.93);
-  padding: 17px 0;
-  gap: 60px;
-color: black;
+  width: 86%;
+
+  border-top: 1px solid rgba(119, 113, 113, 0.328);
+  border-bottom: 1px solid rgba(119, 113, 113, 0.328);
+
+  flex: 1;
+  color: black;
 }
 
 .footercontainer ul {
@@ -516,21 +541,129 @@ color: black;
 }
 
 .footercontainer ul li::before {
-  content: none; 
+  content: none;
+}
+
+.footercontainer .container:first-child {
+  /* border: 2px solid red; */
+  margin-left: px;
 }
 
 .container {
   display: flex;
-  border-right: 1px solid rgba(95, 167, 103, 0.93);
+  padding-right: 50px;
+  border-right: 1px solid rgba(119, 113, 113, 0.328);
+  flex-direction: column;
+  padding: 20px;
+  gap: 12px;
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 200;
 
+  text-decoration: none;
 }
 
-.container ul li a{
+.container a {
   text-decoration: none;
   color: black;
 }
 
+.container a:hover {
+  color: rgb(20, 41, 160);
+  text-decoration: underline;
+}
 .container:last-child {
   border-right: none;
   margin-right: 40px;
 }
+.container span {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+}
+
+.arrow img{
+ object-fit: cover;
+ width: 24px;
+}
+
+.copyright {
+  width: 86%;
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(119, 113, 113, 0.328);
+}
+
+.copyright p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.lastfoot {
+  width: 86%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.txt span {
+  border-right: 1px solid  rgba(119, 113, 113, 0.328);
+  padding-right: 8px;
+}
+
+.txt span > a {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.txt span > a:hover {
+  color: rgb(20, 41, 160);
+  text-decoration: underline;
+}
+
+.txt > a {
+  color: black;
+margin-right: 16px;
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.txt > a:hover {
+  color: rgb(20, 41, 160);
+  text-decoration: underline;
+}
+
+.inloop{
+margin-left:580px ;
+}
+
+.inloop p{
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.socialmedia{
+  display: flex;
+  width:270px ;
+}
+
+.socialmedia img{
+  object-fit: cover;
+  width: 50px;
+}
+
+/* .container3{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  border: 2px solid red;
+  width: 100%;
+  text-decoration: none;
+} */
