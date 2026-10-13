@@ -3,15 +3,10 @@
 body {
   font-family: "Inter", sans-serif;
 }
-
-* {
+*{
   box-sizing: content-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-color: black1;
 }
 
 img {
@@ -19,9 +14,10 @@ img {
 }
 
 .nav {
-  position: absolute;
+  top: 70px;
+position: absolute;
   width: 100%;
-  height: 7%;
+  z-index: 10;
 }
 
 .navchild {
@@ -32,7 +28,7 @@ img {
   gap: 13px;
   padding: 9px 17px;
   top: 7px;
-  left: 978px;
+right: 40px;
 }
 
 select {
@@ -60,9 +56,10 @@ select {
 
 .Thirdnav {
   position: absolute;
-  top: 85px;
+  top: 165px;
   width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 17px;
   padding: 17px 42px;
@@ -75,19 +72,20 @@ select {
   font-size: 0.935rem;
 }
 
-.Thirdnav span:first-child {
-  font-size: 1.36rem;
-  font-weight: 900;
-  letter-spacing: 2.5px;
-  margin-right: 34px;
+.Thirdnav span > img:first-child {
+  object-fit: contain;
+  width: 100%;
 }
 
-.Thirdnav img {
-  object-fit: contain;
+.Thirdnav > img {
+  object-fit: cover;
+  /* border: 2px solid red; */
 }
 
 .searchbar {
-  width: 21px;
+  object-fit: cover;
+
+  width:21px;
   margin-left: auto;
 }
 
@@ -96,22 +94,26 @@ select {
 }
 
 .support {
+  /* border: 2px solid red; */
   display: flex;
-  position: absolute;
+  position: relative;
   align-items: center;
-  top: 76px;
-  left: 1462px;
-  gap: 15px;
+  width: 230px;
+  top: 144px;
+  left: 1402px;
+  gap: 5px;
 }
 
 .support span {
+  /* border: 2px solid green; */
+  width: 120px;
   font-weight: 400;
   font-size: 0.935rem;
 }
 
 .support img {
-  object-fit: contain;
-  width: 30px;
+  object-fit: cover;
+  width: 24px;
 }
 
 .learnbuy {
@@ -383,45 +385,84 @@ select {
 }
 
 .galaxyparent3 {
+  /* border: 2px solid red; */
+  top: 780px;
+  left: 80px;
   position: relative;
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 68px auto 0 auto;
+  /* margin: 68px auto 0 auto; */
   gap: 17px;
 }
 
-.galxycard3 {
+/* .galxycard3 {
   position: relative;
   top: 697px;
   width: 23%;
+} */
+
+.galxycard3 {
+  position: relative;
+  width: 300px;
+  /* height: 380px; */
+  flex-shrink: 0;
+}
+
+.galxylastcard img {
+  padding: 10px;
+  /* flex: 1; */
+  width: 280px;
+  /* height: 280px; */
+  transition: all 0.3s ease;
+  object-fit: cover;
+  border-radius: 17px;
+}
+
+.galxylastcard img:hover {
+  transform: scale(1.05);
 }
 
 .galxycard3 img {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-.galxycard3 a {
+.galxycard3 > a > p {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.galaxyparent3 p {
   position: absolute;
   text-decoration: none;
   color: black;
   font-size: 1.36rem;
   justify-content: center;
   text-align: center;
-  font-weight: 700;
   font-family: "Montserrat", Arial, sans-serif;
-  top: 25px;
-  left: 85px;
+  top: 10px;
+  left: 40px;
 }
+
+/* .galxycard3 a:last-child {
+  position: absolute;
+  font-weight: 400;
+  font-size: 0.935rem;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 9px 21px;
+  border-radius: 34px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+} */
+
+/* .galaxyparent3 p {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: 1.36rem;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", Arial, sans-serif;
+
+} */
 
 .lastP {
   right: 25px;
@@ -429,67 +470,80 @@ select {
 }
 
 .galaxylastparent {
-  border: 2px solid rgb(0, 255, 4);
-
+  /* border: 2px solid peru; */
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
   position: relative;
-  /* top: 900px; */
-  display: flex;
-  justify-content: space-between;
+  top: 800px;
+  left: 80px;
   width: 90%;
-  margin: 68px auto 0 auto;
-  gap: 8px;
+  gap: 16px;
 }
 
 .galxylastcard {
-
-  border: 2px solid red;
   position: relative;
-  top: 1130px;
-  width: 22%;
+  width: 300px;
+  height: 380px;
+  flex-shrink: 0;
 }
 
 .galxylastcard img {
-  flex: 1;
+  padding: 10px;
+  /* flex: 1; */
   width: 280px;
-  height: 400px;
-
-  object-fit: contain;
+  height: 280px;
+  transition: all 0.3s ease;
+  object-fit: cover;
   border-radius: 17px;
 }
 
-.galxylastcard img:hover{
-  transform: scale(1.1);
+.galxylastcard img:hover {
+  transform: scale(1.05);
 }
 
 .galaxylastparent p {
   position: absolute;
   text-decoration: none;
   color: black;
-  font-size: 1.36rem;
+  font-size: 1.1rem;
   justify-content: center;
   text-align: center;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Montserrat", Arial, sans-serif;
-  top: 340px;
-  left: 42px;
+  top: 310px;
+  left: 10px;
 }
 
-.upperstories p {
+.upperstories {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  top: 800px;
+  height: 80px;
+  /* border: 2px solid red; */
+  width: 400px;
+  left: 80px;
+}
+
+.upperstories > p {
   color: black;
-  position: absolute;
   font-weight: 600;
-  font-size: 3.4rem;
-  top: 1020px;
+  font-size: 2.2rem;
 }
 
 .uiux {
-  position: absolute;
+  position: relative;
   background-color: rgb(247, 247, 247);
-
   width: 86%;
   height: 148px;
   padding-top: 17px;
-  top: 5015px;
+  top: 820px;
+  z-index: 99;
   left: 116px;
 }
 
@@ -518,8 +572,7 @@ footer {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 1497px;
-
+  top: 820px;
   width: 100%;
 
   /* border: 4px solid rgb(34, 0, 255); */
@@ -528,10 +581,8 @@ footer {
 .footercontainer {
   display: flex;
   width: 86%;
-
   border-top: 1px solid rgba(119, 113, 113, 0.328);
   border-bottom: 1px solid rgba(119, 113, 113, 0.328);
-
   flex: 1;
   color: black;
 }
@@ -581,14 +632,14 @@ footer {
   font-weight: 500;
   margin-bottom: 10px;
 }
-.arrow{
+.arrow {
   display: flex;
   align-items: center;
 }
 
-.arrow img{
- object-fit: cover;
- width: 24px;
+.arrow img {
+  object-fit: cover;
+  width: 24px;
 }
 
 .copyright {
@@ -611,7 +662,7 @@ footer {
 }
 
 .txt span {
-  border-right: 1px solid  rgba(119, 113, 113, 0.328);
+  border-right: 1px solid rgba(119, 113, 113, 0.328);
   padding-right: 8px;
 }
 
@@ -629,7 +680,7 @@ footer {
 
 .txt > a {
   color: black;
-margin-right: 16px;
+  margin-right: 16px;
   font-size: 0.75rem;
   font-weight: 300;
   text-decoration: none;
@@ -640,21 +691,21 @@ margin-right: 16px;
   text-decoration: underline;
 }
 
-.inloop{
-margin-left:580px ;
+.inloop {
+  margin-left: 580px;
 }
 
-.inloop p{
+.inloop p {
   font-size: 0.9rem;
   font-weight: 200;
 }
 
-.socialmedia{
+.socialmedia {
   display: flex;
-  width:270px ;
+  width: 270px;
 }
 
-.socialmedia img{
+.socialmedia img {
   object-fit: cover;
   width: 50px;
 }
