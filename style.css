@@ -14,7 +14,7 @@ img {
 }
 
 .nav {
-  top: 70px;
+  top: 0px;
 position: absolute;
   width: 100%;
   z-index: 10;
@@ -27,7 +27,7 @@ position: absolute;
   justify-content: space-between;
   gap: 13px;
   padding: 9px 17px;
-  top: 7px;
+  /* top: 7px; */
 right: 40px;
 }
 
@@ -55,8 +55,9 @@ select {
 }
 
 .Thirdnav {
-  position: absolute;
-  top: 165px;
+  /* border: 3px solid red; */
+  position: relative;
+  top: 85px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -66,6 +67,14 @@ select {
   box-sizing: border-box;
 }
 
+.navtext{
+  margin-left: -800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  height: 8px;
+}
 .Thirdnav span {
   font-family: Arial, sans-serif;
   font-weight: 400;
@@ -83,14 +92,16 @@ select {
 }
 
 .searchbar {
+  position: absolute;
+right: 90px;
   object-fit: cover;
-
   width:21px;
-  margin-left: auto;
 }
 
 .portrait {
   width: 21px;
+  position: absolute;
+right: 50px;
 }
 
 .support {
@@ -99,7 +110,7 @@ select {
   position: relative;
   align-items: center;
   width: 230px;
-  top: 144px;
+  top: 70px;
   left: 1402px;
   gap: 5px;
 }
